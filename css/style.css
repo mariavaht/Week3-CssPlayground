@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Oxygen&family=Playfair+Display&display=swap');
+
+/** - all elements*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(184, 175, 136, 0.726);
+}
+
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.title-container {
+    padding: 1rem 0;
+}
+
+.title-container h1 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description-container {
+    padding: 0 1rem;
+}
+
+.description-container p {
+    color: #333;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    border-radius: 25%;
+}
+
+.table-container {
+    width: 75%;
+    margin: 3rem auto;
+} 
+
+ul {
+    list-style: none;
+}
+
+#td-method {
+    padding-left: 3rem;
+}
+
+#td-method ul li:first-child {
+    margin-top: 1.5rem;
+}
+
+#td-method ul li {
+    margin-bottom: 1rem;
+}
+
+#td-method ul li span {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+#td-ingredients {
+    text-align: center;
+}
+
+#td-ingredients ul li:first-child {
+    margin-top: 0.8rem;
+}
+
+#td-ingredients ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    padding-bottom: 3rem;
+}
+
+.footer ul {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li:first-child {
+    margin-right: 3rem;
+}
+
+.footer ul li:last-child {
+    margin-left: 3rem;
+}
+
+.footer ul li a {
+    color: #777;
+    font-size: 2rem;
+}
